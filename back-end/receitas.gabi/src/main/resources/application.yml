@@ -1,0 +1,28 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: receitas-gabi
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres?receitas
+    username: postgres
+    password: postgres
+    driverClassName: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  flyway:
+    url: jdbc:postgresql://localhost:5432/postgres
+    user: postgres
+    password: postgres
+    table: schema_history_receitas_gabi
+    schemas:
+      - receitas_gabi
+    placeholders:
+      database_name: postgres
+      user_name: postgres
