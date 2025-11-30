@@ -1,14 +1,6 @@
 # 🍽️ Gabi Receitas – Projeto de Estudo
 
-Este projeto foi criado com o objetivo de estudar e praticar tecnologias de desenvolvimento web, explorando conceitos de **back-end**, **front-end** e **banco de dados**.  
-A aplicação consiste em um site simples para cadastro e consulta de receitas.
-
----
-
-## 📌 Descrição do Projeto
-
-O **Gabi Receitas** é um sistema de gerenciamento de receitas culinárias, onde é possível criar, visualizar, editar e excluir receitas.  
-O projeto está em desenvolvimento contínuo para fins de estudo.
+Este projeto foi criado com o objetivo de estudar e praticar tecnologias de desenvolvimento web, explorando conceitos de back-end, front-end e banco de dados. A aplicação consiste em um site simples para cadastro e consulta de receitas.
 
 ---
 
@@ -22,8 +14,7 @@ O projeto está em desenvolvimento contínuo para fins de estudo.
 
 ### **Front-end**
 - Em desenvolvimento  
-- Planejado: HTML/CSS/JS e Bootstrap
-- Dashboard com CRUD de receitas  
+- Planejado: HTML/CSS/JS e Tailwind (ainda aprendendo)
 
 ## 🔧 Funcionalidades do Back-end
 
@@ -40,14 +31,12 @@ O projeto está em desenvolvimento contínuo para fins de estudo.
 
 ### Funcionalidades planejadas:
 
-- Dashboard com listagem das receitas  
-- Botão **“Criar Nova Receita”**  
+- Tela inicial com listagem das receitas  
+- Botão "Criar Nova Receita”  
 - Tela de formulário para nova receita  
-- Visualização da receita  
-- CRUD completo no front
+- Visualização da receita 
 
 ## Front atual
-<img width="1141" height="715" alt="Screenshot from 2025-11-22 23-17-23" src="https://github.com/user-attachments/assets/873961b1-e380-495c-877b-bd6034d271bb" />
  
 
 ---
