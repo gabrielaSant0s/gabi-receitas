@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Gabi Receitas - Nova receita</title>
+    <link href="input.css" rel="stylesheet">
+</head>
+<body>
+    <form onsubmit="postarReceita(event)" id="receitaForm">
+        <label for="nome">Nome Receita</label></br>
+        <input type="text" id="nome"></br>
+        <label for="ingredientes">Ingredientes</label></br>
+        <input type="text" id="ingredientes"></br>
+        <label for="modoPreparo">Modo de Preparo</label></br>
+        <input type="text" id="modoPreparo"></br>
+        <input type="submit" value="Salvar">
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
